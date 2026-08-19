@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.pytest_cache/
+logs/
+cache/*
+!cache/.gitkeep
+assets/earth_day.png
+assets/earth_day.jpg
+assets/atmosphere_glow.png
