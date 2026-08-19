@@ -1,0 +1,8 @@
+# Ursina 8.3.0 requires Python 3.12+.
+ursina==8.3.0
+skyfield>=1.49,<2
+sgp4>=2.23,<3
+opencv-python>=4.8,<5
+numpy>=1.26,<3
+Pillow>=10.0,<12
+geonamescache>=3.0.0,<4
