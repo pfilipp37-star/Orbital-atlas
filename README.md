@@ -34,7 +34,25 @@ For troubleshooting:
 START_DEBUG.bat
 ```
 
-### macOS / Linux
+### macOS
+
+Install Python 3.12 or newer, then double-click:
+
+```text
+START_MAC.command
+```
+
+`START_MAC.command` automatically creates `.venv`, installs or repairs dependencies, verifies the required Python modules and starts Orbital Atlas. If macOS blocks the file on the first launch, Control-click it in Finder and choose **Open**.
+
+You can also start it from Terminal:
+
+```bash
+./START_MAC.command
+```
+
+The older `RUN_MACOS.command` launcher is still included as a fallback.
+
+### Linux
 
 ```bash
 python3 -m venv .venv
@@ -42,8 +60,6 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python main.py
 ```
-
-On macOS, `RUN_MACOS.command` is also included.
 
 ## Controls
 
